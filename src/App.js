@@ -1,13 +1,11 @@
-import React from 'react'
-import './App.css';
-import Sidebar from './components/sidebar/Sidebar';
+import React from 'react';
 import Home from './components/Home/Home';
 import TopBar from './components/topbar/TopBar';
 
 function App() {
   return (
     <>
-      <TopBar />
+      <TopBar/>
       <Home />
     </>
   );

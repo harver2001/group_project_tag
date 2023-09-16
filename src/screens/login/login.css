@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.bod {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    background-color: #03080f;
+    color: #FFFFFF;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.formLabel {
+    align-self: flex-start;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.formInput {
+    padding: 4px 8px;
+    background-color: transparent;
+    border: 3px solid #5161e9;
+    border-radius: 12px;
+    font-size: 22px;
+    color: #DDDDDD;
+    height: 50px;
+}
+
+.loginButton {
+    margin-top: 8px;
+    border: 0px;
+    background-color: #5161e9;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 8px 16px;
+}
+
+.loginImage {
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm {
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pText {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.resetPassword {
+    display: flex;
+    vertical-align:middle;
+    justify-content: center;
+    gap: 4px;
+
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1.5fr 1.3fr;
+    background-color: #2d2d2d;
+    min-height: 70vh;
+    width: 70vw;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.sideForm {
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+
+.sideFormTitle {
+    font-size: 46px;
+}
+
+.textButton {
+    text-align: center;
+    border: 0px;
+    background-color: transparent;
+    color: #5161e9;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/*****************/
+
+@media(max-width: 900px) {
+    section {
+        grid-template-columns: 1fr;
+        width: 100%;
+        border-radius: none;
+    }
+
+    .image {
+        height: 100vh;
+        border-radius: none;
+    }
+
+    .content {
+        height: 100vh;
+        border-radius: none;
+    }
+
+    .content h2 {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .content span {
+        margin: 20px 0;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .links li a {
+        font-size: 14px;
+    }
+
+    .links {
+        margin: 5px 0;
+    }
+
+    .links li {
+        padding: 6px 10px;
+    }
+
+    .icons li i {
+        font-size: 15px;
+    }
+}
+
+.credit {
+    text-align: center;
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.credit a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
